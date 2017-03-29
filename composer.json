@@ -1,8 +1,0 @@
-{
-    "name": "phptiger/composer",
-    "description": "Test my composer",
-    "require": {
-        "php": "^5.3.3 || ^7.0",
-        "another-vendor/package": "1.*"
-    }
-}
