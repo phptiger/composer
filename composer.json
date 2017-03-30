@@ -3,7 +3,7 @@
     "description": "it is my project !!!!",
     "type": "project",
     "require": {
-
+        "gregwar/captcha": "dev-master"
     },
     "license": "MIT",
     "authors": [{
@@ -12,6 +12,9 @@
     }],
     "minimum-stability": "dev",
     "autoload": {
+        "files": [
+            "core/functions.php"
+        ],
         "psr-4": {
             "core\\": "core",
             "web\\": "web"
