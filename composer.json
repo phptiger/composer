@@ -3,14 +3,18 @@
     "description": "it is my project !!!!",
     "type": "project",
     "require": {
-        "phptiger/composer": "*"
+
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Tiger Yip",
-            "email": "tigeryip110@gmail.com"
+    "authors": [{
+        "name": "Tiger Yip",
+        "email": "tigeryip110@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "web\\": "web"
         }
-    ],
-    "minimum-stability": "dev"
+    }
 }
